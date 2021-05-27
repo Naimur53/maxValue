@@ -11,7 +11,7 @@ else{
     max=toi;
 }
 **/
-console.log(max);
+console.log("max value in variable",max);
 
 
 //arry max value
@@ -22,4 +22,15 @@ for(var i=0;i<value.length;i++){
         maxArry=value[i];
     }
 }
-console.log(maxArry);
+console.log("max value in array",maxArry);
+ 
+
+
+//sum of array
+
+var arrayOfSum = [2,453,234,243,],resultOfArray=0;
+for(var i=0;i<arrayOfSum.length;i++){
+   resultOfArray= resultOfArray + arrayOfSum[i]; 
+}
+console.log("result of array",resultOfArray);
+ 
