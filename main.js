@@ -48,3 +48,17 @@ for(var i=0;i<dup.length;i++)
 
 }
  console.log(enter);
+ 
+ 
+ //word counter 
+
+ var word = "f dffo n rfj aliej   saj s";
+ var count = 0;
+ for(var i = 0; i<word.length;i++)
+ {
+     if(word[i]==" " && word[i-1]!=" "){
+         count++;
+     }
+ }
+ count++;
+ console.log(count);
