@@ -33,4 +33,18 @@ for(var i=0;i<arrayOfSum.length;i++){
    resultOfArray= resultOfArray + arrayOfSum[i]; 
 }
 console.log("result of array",resultOfArray);
- 
+
+// removed duplicate item form array 
+
+var dup = [3,52,23,234,2];
+var enter = [3];
+for(var i=0;i<dup.length;i++)
+{
+     
+    if(enter.indexOf(dup[i])== -1)
+    {
+        enter.push(dup[i]);
+    }
+
+}
+ console.log(enter);
