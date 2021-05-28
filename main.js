@@ -62,3 +62,15 @@ for(var i=0;i<dup.length;i++)
  }
  count++;
  console.log(count);
+ 
+ //reverse string
+ function rev(str){
+     var reverse ="";
+     for(var i=0; i<str.length;i++)
+     {
+         reverse = str[i] + reverse;
+     }
+      return reverse;
+ } 
+ var re =rev("idas");
+ console.log(re);
