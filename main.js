@@ -72,5 +72,5 @@ for(var i=0;i<dup.length;i++)
      }
       return reverse;
  } 
- var re =rev("idas");
+ var re =rev("idas naimur");
  console.log(re);
