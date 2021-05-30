@@ -74,3 +74,17 @@ for(var i=0;i<dup.length;i++)
  } 
  var re =rev("idas naimur");
  console.log(re);
+ // ANIMAL COUNTER
+ var animal = 0;
+ var depth = 12;
+ if(depth<=10){
+     animal = depth*10;
+ }
+ else if(depth <=20)
+ {
+     var first = 10*10;
+     var second = depth - 10;
+     var remaning = second * 20;
+     animal = first + remaning; 
+ }
+ console.log("animal",animal)
